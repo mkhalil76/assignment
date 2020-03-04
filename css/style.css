@@ -1,0 +1,42 @@
+*{
+    font-family: sans-serif
+    
+}
+
+body{
+    background: #eee;
+    position: relative;
+    margin: 0 auto;
+}
+
+#nav-bar-menu a:hover {
+    background-color: #aaa;
+}
+
+.card{
+    padding-top:50px;
+}
+.nav-link{
+    color: #333;
+}
+#nav-bar-menu{
+    position: sticky;
+    text-align: center;
+}
+
+#nav-bar-menu li {
+    width: 25%;
+}
+
+@media screen and (max-width:570px) {
+    #nav-bar-menu a.active {
+        display: block;
+
+    }
+    #nav-bar-menu a {
+       display: none;
+    }
+    #nav-bar-menu li {
+        width: 100%;
+    }
+}
